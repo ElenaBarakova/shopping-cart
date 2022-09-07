@@ -1,0 +1,14 @@
+{
+  "01": {
+    "_id": "01",
+    "title": "Estee Lauder Foundation",
+    "description": "24-hour wear. Flawless, natural, matte foundation.",
+    "imgUrl": "https://i.pinimg.com/564x/dc/10/ae/dc10ae7eb38a1fa25893079610a30efa.jpg"
+  },
+  "02": {
+    "_id": "02",
+    "title": "Dior Foundation",
+    "description": "The secret weapon to create an instantly flawless complexion with ultra-buildable coverage.",
+    "imgUrl": "https://i.pinimg.com/564x/90/25/7e/90257edfc21c9cd80a6252fadb3131a0.jpg"
+  }
+}
