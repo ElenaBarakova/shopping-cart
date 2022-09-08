@@ -1,0 +1,29 @@
+.product-card {
+  height: 600px;
+  .card-img-container {
+    display: flex;
+    justify-content: center;
+    .card-img-top {
+      height: 350px;
+      width: 350px;
+      background-size: cover;
+    }
+  }
+
+  .price-container {
+    display: flex;
+    align-content: flex-end;
+    padding: 16px;
+    .card-price {
+      width: 100%;
+      //   align-self: flex-end;
+    }
+  }
+  .btn-buy-container {
+    display: flex;
+    padding: 16px;
+    .btn-buy {
+      width: 100%;
+    }
+  }
+}

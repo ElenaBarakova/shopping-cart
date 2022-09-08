@@ -1,0 +1,29 @@
+.products-overview {
+  margin: 50px 200px;
+  .title-container {
+    .main-title {
+      padding: 20px 0px;
+    }
+  }
+  .card-overview-container {
+    margin-top: 40px;
+  }
+  .total-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+    margin-right: 25px;
+    .total-price {
+      margin-right: 50px;
+    }
+  }
+  .order-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-right: 25px;
+    .btn-order {
+      font-size: 25px;
+    }
+  }
+}

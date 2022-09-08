@@ -1,14 +1,34 @@
-{
-  "01": {
+[
+  {
     "_id": "01",
     "title": "Estee Lauder Foundation",
     "description": "24-hour wear. Flawless, natural, matte foundation.",
-    "imgUrl": "https://i.pinimg.com/564x/dc/10/ae/dc10ae7eb38a1fa25893079610a30efa.jpg"
+    "imgUrl": "https://i.pinimg.com/564x/dc/10/ae/dc10ae7eb38a1fa25893079610a30efa.jpg",
+    "price": 50,
+    "quantity": 1
   },
-  "02": {
+  {
     "_id": "02",
     "title": "Dior Foundation",
     "description": "The secret weapon to create an instantly flawless complexion with ultra-buildable coverage.",
-    "imgUrl": "https://i.pinimg.com/564x/90/25/7e/90257edfc21c9cd80a6252fadb3131a0.jpg"
+    "imgUrl": "https://i.pinimg.com/564x/90/25/7e/90257edfc21c9cd80a6252fadb3131a0.jpg",
+    "price": 60,
+    "quantity": 1
+  },
+  {
+    "_id": "03",
+    "title": "Tom Ford Foundation",
+    "description": "The soft and silky texture is ultra-blendable and defends against caking, poring and settling.",
+    "imgUrl": "http://johnlewis.scene7.com/is/image/JohnLewis/238553550",
+    "price": 120,
+    "quantity": 1
+  },
+  {
+    "_id": "04",
+    "title": "Armani Foundation",
+    "description": "Hydrating foundation helps sculpt and brighten skin, all while delivering a fresh, long-lasting, lit-from-within glow.",
+    "imgUrl": "https://douglas.bg/media/catalog/product/cache/999a9aadefdb45e044896a23fa26b259/1/_/1_3639_1.jpg",
+    "price": 55,
+    "quantity": 1
   }
-}
+]

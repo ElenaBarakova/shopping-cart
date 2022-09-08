@@ -1,0 +1,29 @@
+.overview-card {
+  width: 100%;
+  height: 105px;
+  border-bottom: 1px black solid;
+
+  .card-body {
+    margin-top: 20px;
+  }
+  .img-overview-container {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img-overview {
+      height: 100px;
+      width: 100px;
+      background-size: cover;
+    }
+  }
+
+  .quantity-conrainer,
+  .price-conrainer,
+  .btn-del-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,44 @@
+.overview-card {
+  width: 100%;
+  height: 105px;
+  border-bottom: 1px black solid;
+}
+
+.overview-card .card-body {
+  margin-top: 20px;
+}
+
+.overview-card .img-overview-container {
+  height: 100px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.overview-card .img-overview-container .img-overview {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+}
+
+.overview-card .quantity-conrainer,
+.overview-card .price-conrainer,
+.overview-card .btn-del-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=CardOverview.css.map */

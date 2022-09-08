@@ -1,0 +1,42 @@
+.products-overview {
+  margin: 50px 200px;
+}
+
+.products-overview .title-container .main-title {
+  padding: 20px 0px;
+}
+
+.products-overview .card-overview-container {
+  margin-top: 40px;
+}
+
+.products-overview .total-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+.products-overview .total-container .total-price {
+  margin-right: 50px;
+}
+
+.products-overview .order-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  margin-right: 25px;
+}
+
+.products-overview .order-container .btn-order {
+  font-size: 25px;
+}
+/*# sourceMappingURL=Cart.css.map */
