@@ -38,6 +38,8 @@ const shoppingCart = (state = initialState, action) => {
           state.total -
           Number(action.currentProduct.price) *
             Number(action.currentProduct?.quantity),
+        totalProducts:
+          state.totalProducts - Number(action.currentProduct.quantity),
       };
     case shoppingCartActions.CLEAR_CART:
       return initialState;
