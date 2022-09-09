@@ -1,0 +1,29 @@
+.about-container {
+  margin: 150px 600px;
+}
+
+.about-container .about-title-container,
+.about-container .about-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+}
+
+.about-container .about-title-container .about-text,
+.about-container .about-text-container .about-text {
+  text-align: center;
+  font-size: 18px;
+}
+
+.about-container .about-title-container .about-title,
+.about-container .about-text-container .about-title {
+  font-size: 40px;
+}
+/*# sourceMappingURL=About.css.map */

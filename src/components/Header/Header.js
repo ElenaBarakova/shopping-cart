@@ -1,14 +1,12 @@
 import "./Header.scss";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 export const Header = () => {
+  const shoppingCartState = useSelector((state) => state.shoppingCart);
+
   return (
     <header className="main-header">
-      {/* <img
-        className="logo"
-        src="https://e7.pngegg.com/pngimages/530/1002/png-clipart-pai-skincare-copaiba-deep-cleanse-aha-mask-pai-rosehip-bioregenerate-oil-mask-face-acid-thumbnail.png"
-        alt="logo"
-      /> */}
       <ul className="menu-container">
         <li className="menu-item">
           <Link className="menu-link-item" to="/">
@@ -26,8 +24,17 @@ export const Header = () => {
           </Link>
         </li>
         <li className="menu-item">
-          <Link className="menu-link-item" to="/shopping-cart">
+          <Link
+            className="menu-link-item  position-relative"
+            to="/shopping-cart"
+          >
             Shopping Cart
+            {shoppingCartState.products.length > 0 && (
+              <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                {shoppingCartState.totalProducts}
+                <span className="visually-hidden">unread messages</span>
+              </span>
+            )}
           </Link>
         </li>
       </ul>

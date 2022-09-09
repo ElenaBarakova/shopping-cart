@@ -4,6 +4,7 @@ import { Cart } from "./components/Cart/Cart";
 import { Products } from "./components/Products/Products";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
+import { About } from "./components/About/About";
 
 function App() {
   return (
@@ -13,15 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
-
-          {/* <Route path="/create" element={<Create />} /> */}
-          {/* <Route path="/my-profile" element={<MyProfile />} /> */}
-          {/* <Route path="/logout" element={<Logout />} /> */}
-
+          <Route path="/about" element={<About />} />
           <Route path="/shopping-cart" element={<Cart />} />
-          {/* <Route path="/register" element={<Register />} /> */}
-          {/* <Route path="/details/:boatId" element={<Details />} /> */}
-          {/* <Route path="/*" element={<Error />} /> */}
         </Routes>
       </main>
     </div>

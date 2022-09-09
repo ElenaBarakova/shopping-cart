@@ -2,21 +2,21 @@
   width: auto;
   height: 1000px;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  .home-image-container {
-    display: flex;
-    justify-content: right;
-    .home-image {
-      background-image: url("https://i.pinimg.com/564x/38/b1/05/38b105fd7065375391e3ec88458e02a5.jpg");
-      background-size: cover;
-      width: 500px;
-      height: 100%;
-    }
-  }
+  margin-top: 150px;
+
   .btn-home-container {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .home-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    .home-title {
+      font-size: 100px;
+      font-family: "Ostrich Sans", sans-serif;
+    }
   }
 }

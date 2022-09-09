@@ -5,6 +5,9 @@ export const Home = () => {
   return (
     <div>
       <div className="home">
+        <div className="home-title-container">
+          <h1 className="home-title">HIGH-END MAKEUP PRODUCTS</h1>
+        </div>
         <div className="btn-home-container">
           <Button className="button-home" to="/products">
             VIEW PRODUCTS

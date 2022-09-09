@@ -14,7 +14,7 @@ export const Cart = () => {
     <section className="products-overview">
       <div className="tite-container">
         <h3 className="main-title">
-          Added products - {shoppingCartState.products.length}
+          Added products - {shoppingCartState.totalProducts}
         </h3>
       </div>
 
