@@ -30,5 +30,53 @@
     "imgUrl": "https://douglas.bg/media/catalog/product/cache/999a9aadefdb45e044896a23fa26b259/1/_/1_3639_1.jpg",
     "price": 55,
     "quantity": 1
+  },
+  {
+    "_id": "05",
+    "title": "Armani Lipstick",
+    "description": "Hydrating, long-wearing lipstick.",
+    "imgUrl": "https://www.sephora.com/productimages/sku/s2104289-main-zoom.jpg",
+    "price": 40,
+    "quantity": 1
+  },
+  {
+    "_id": "06",
+    "title": "Tom Ford Powder",
+    "description": "An airy, light formula of superfine powders that sets makeup perfectly with a sheer, shine-free finish that lasts all day.",
+    "imgUrl": "https://www.deliriumexclusive.com/Images/Products/Normal/640000/640992.jpg",
+    "price": 80,
+    "quantity": 1
+  },
+  {
+    "_id": "07",
+    "title": "Dior Eyehadow Palette",
+    "description": "These all-in-one eye palettes have everything you need to prime, shade, and highlight for runway-ready eyes.",
+    "imgUrl": "https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw9c18159f/assets/Y0012000/Y0012000_C001200004_E01_GHC.jpg?sw=715&sh=773&sm=fit&imwidth=800",
+    "price": 70,
+    "quantity": 1
+  },
+  {
+    "_id": "08",
+    "title": "Dior Eyehadow Palette",
+    "description": "These all-in-one eye palettes have everything you need to prime, shade, and highlight for runway-ready eyes.",
+    "imgUrl": "https://www.sephora.com/productimages/sku/s2365211-main-zoom.jpg",
+    "price": 70,
+    "quantity": 1
+  },
+  {
+    "_id": "09",
+    "title": "Estee Lauder Eyehadow Palette",
+    "description": "These all-in-one eye palettes have everything you need to prime, shade, and highlight for runway-ready eyes.",
+    "imgUrl": "https://lyko.com/globalassets/product-images/estee-lauder-eyeshadow-palette--first-bloom-2058-361-0002_1.jpg?ref=698616",
+    "price": 95,
+    "quantity": 1
+  },
+  {
+    "_id": "10",
+    "title": "Estee Lauder Powder",
+    "description": "A multi-use, refillable powder foundation with flawless custom coverage.",
+    "imgUrl": "https://images.shop.frankfurt-airport.com/pim/8h6tBRQCvIQNbf8EcpTYi7TZZ3513q4UTd2bacCaYWU/1200x,jpeg/Y2F0YWxvZy9kLzYvMS8wL2Q2MTA5ZTQ4NzExZDk3NzcwZWY3MjE4YzEwOTRiNWNlXzEzNTk1MjAuanBn",
+    "price": 60,
+    "quantity": 1
   }
 ]
