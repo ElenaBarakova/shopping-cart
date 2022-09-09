@@ -12,7 +12,6 @@ export const Products = () => {
 
   return (
     <div className="products-container overflow-hidden">
-      <h1>current count {shoppingCartState?.products.length}</h1>
       <div className="row gy-4">
         {productsData.map((product) => {
           return <Card product={product} key={product._id} />;

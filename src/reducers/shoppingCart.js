@@ -1,6 +1,4 @@
-export const shoppingCartActions = {
-  ADD_PRODUCT: "ADD_PRODUCT",
-};
+import { shoppingCartActions } from "../constants/constants";
 
 const initialState = {
   products: [],
@@ -27,6 +25,20 @@ const shoppingCart = (state = initialState, action) => {
           total: state.total + Number(action.newProduct.price),
         };
       }
+    case shoppingCartActions.REMOVE_PRODUCT:
+      const productsLeft = state.products.filter(
+        (product) => product._id !== action.currentProduct._id
+      );
+
+      return {
+        products: productsLeft,
+        total:
+          state.total -
+          Number(action.currentProduct.price) *
+            Number(action.currentProduct?.quantity),
+      };
+    case shoppingCartActions.CLEAR_CART:
+      return initialState;
 
     default:
       return initialState;

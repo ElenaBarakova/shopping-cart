@@ -6,6 +6,12 @@
   padding: 20px 0px;
 }
 
+.products-overview .table-header {
+  text-align: center;
+  border-bottom: 1px black solid;
+  padding-bottom: 30px;
+}
+
 .products-overview .card-overview-container {
   margin-top: 40px;
 }

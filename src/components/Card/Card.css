@@ -1,7 +1,3 @@
-.product-card {
-  height: 600px;
-}
-
 .product-card .card-img-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,13 +17,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
-  padding: 16px;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding: 0px 30px;
 }
 
 .product-card .price-container .card-price {
-  width: 100%;
+  font-size: 35px;
 }
 
 .product-card .btn-buy-container {
