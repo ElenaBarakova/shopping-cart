@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
+
 import { Cart } from "./components/Cart/Cart";
 import { Products } from "./components/Products/Products";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
-import { Login } from "./components/Login/Login";
 
 function App() {
   return (
@@ -18,7 +18,6 @@ function App() {
           {/* <Route path="/my-profile" element={<MyProfile />} /> */}
           {/* <Route path="/logout" element={<Logout />} /> */}
 
-          <Route path="/login" element={<Login />} />
           <Route path="/shopping-cart" element={<Cart />} />
           {/* <Route path="/register" element={<Register />} /> */}
           {/* <Route path="/details/:boatId" element={<Details />} /> */}
