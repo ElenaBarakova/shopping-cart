@@ -9,14 +9,17 @@ const initialState = {
 const shoppingCart = (state = initialState, action) => {
   switch (action.type) {
     case shoppingCartActions.ADD_PRODUCT:
-      // TOTAL logic:
       const productAlreadyInTheCart = state.products.find(
         (product) => product._id === action.newProduct._id
       );
+      const products = state.products.filter((product) => {
+        return product._id !== action.newProduct._id;
+      });
       if (productAlreadyInTheCart) {
-        action.newProduct.quantity = Number(action.newProduct.quantity) + 1;
+        productAlreadyInTheCart.quantity =
+          Number(action.newProduct.quantity) + 1;
         return {
-          products: state.products,
+          products: [...products, productAlreadyInTheCart],
           total: state.total + Number(action.newProduct.price),
           totalProducts: state.totalProducts + 1,
         };
