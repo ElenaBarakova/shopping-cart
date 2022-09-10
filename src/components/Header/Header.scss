@@ -1,6 +1,4 @@
-$grey-color: rgb(150, 150, 150);
-$light-grey-color: rgb(237, 237, 237);
-
+@import "../../constants/constants.scss";
 body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
@@ -12,12 +10,20 @@ body {
   height: 60px;
   text-align: center;
   background-color: $light-grey-color;
-  .logo {
-    position: absolute;
-    width: 60px;
-    margin-top: 10px;
-    margin-left: 10px;
+
+  .menu-cart-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    .cart-icon {
+      width: 25px;
+      height: 25px;
+      &:hover {
+        fill: $dark-grey-color;
+      }
+    }
   }
+
   .menu-container {
     display: flex;
     margin: auto;
@@ -33,6 +39,9 @@ body {
       .menu-link-item {
         text-decoration: none;
         color: black;
+        &:hover {
+          color: $dark-grey-color;
+        }
       }
     }
   }
