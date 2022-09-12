@@ -19,26 +19,38 @@ export const Cart = () => {
       </div>
 
       <div className="card-overview-container">
-        <div className="row g-0 table-header">
-          <div className="col-1"></div>
-          <div className="col-8"></div>
-          <div className="col-1">
-            <h5>Quantity:</h5>
-          </div>
-          <div className="col-1">
-            <h5>Price per product:</h5>
-          </div>
-
-          <div className="col-1"></div>
+        <div className="table-responsive">
+          <table className="table">
+            <thead>
+              <tr className="table-header">
+                <th scope="col" className="table-header-title">
+                  Products
+                </th>
+                <th scope="col"></th>
+                <th scope="col" className="table-header-title">
+                  Quantity
+                </th>
+                <th scope="col" className="table-header-title">
+                  Price
+                </th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              {shoppingCartState.products?.length > 0 ? (
+                shoppingCartState.products.map((product) => {
+                  return <CardOverview key={product._id} product={product} />;
+                })
+              ) : (
+                <tr>
+                  <td>
+                    <h5>Shopping Cart is empty!</h5>
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
         </div>
-
-        {shoppingCartState.products?.length > 0 ? (
-          shoppingCartState.products.map((product) => {
-            return <CardOverview key={product._id} product={product} />;
-          })
-        ) : (
-          <h5>Shopping Cart is empty!</h5>
-        )}
       </div>
       <div className="total-container">
         <h4 className="total-price">Total price: ${shoppingCartState.total}</h4>

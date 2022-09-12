@@ -13,17 +13,21 @@
     justify-content: center;
     align-items: center;
     .img-overview {
-      height: 100px;
-      width: 100px;
+      height: 95px;
+      width: 95px;
       background-size: cover;
     }
   }
 
-  .quantity-conrainer,
-  .price-conrainer,
-  .btn-del-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  // .quantity-conrainer,
+  // .price-conrainer,
+  // .btn-del-container {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+}
+
+.table > :not(caption) > * > * {
+  border: none;
 }
