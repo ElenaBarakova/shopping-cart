@@ -7,7 +7,7 @@ export const Card = ({ product }) => {
   const dispatch = useDispatch();
   const addToCartHandler = () => dispatch(addProduct(product));
   return (
-    <div className="col-3 product-card">
+    <div className="col-12 col-md-6 col-lg-3 product-card">
       <div className="card product-card">
         <div className="card-img-container">
           <img src={product.imgUrl} className="card-img-top" alt="img" />
